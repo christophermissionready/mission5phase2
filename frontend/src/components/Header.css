@@ -1,0 +1,114 @@
+*{
+    margin: 0;}
+
+.top {
+    display: flex;
+    /* background-color: blue; */
+    height: 100px;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    /* background-color: red; */    
+    height: 80px;
+    align-items: center;
+}
+
+.z{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    padding-left: 20px;
+}
+
+.personal {
+    display: flex;
+width: 160px;
+height: 50px;
+padding: 12px 13.5px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+padding-left: 40px;
+}
+
+.business {
+    display: flex;
+    width: 160px;
+    height: 50px;
+    padding: 12px 13.5px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding-left: 0px;
+}
+
+.z-app {
+    display: flex;
+    width: 60px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    /* padding-top: 27px; */
+    padding-left: 470px;
+}
+
+.about {
+    display: flex;
+width: 80px;
+height: 20px;
+justify-content: flex-end;
+align-items: center;
+flex-shrink: 0;
+/* padding-top: 27px; */
+padding-left: 40px;
+}
+
+.search{
+    width: 38px;
+height: 38px;
+flex-shrink: 0;
+/* padding-top: 18px; */
+padding-left: 120px;
+}
+
+.login {
+    width: 160px;
+height: 60px;
+flex-shrink: 0;
+/* padding-top: 10px; */
+padding-left: 40px;
+}
+
+.at-the-station {
+    display: flex;
+width: 180px;
+height: 22px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+padding-left: 40px;
+}
+
+.power {
+    width: 150px;
+height: 22px;
+flex-shrink: 0;
+padding-left: 40px;
+}
+
+.rewards {
+    width: 300px;
+height: 22px;
+flex-shrink: 0;
+}
+
+.locate {
+    width: 280px;
+height: 60px;
+flex-shrink: 0;
+padding-left: 505px;
+}
+

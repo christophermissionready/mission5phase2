@@ -1,0 +1,114 @@
+.filter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  .filter-category {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f26100; /* Orange color for category titles */
+  }
+  
+  .button-group {
+    display: flex;
+width: 230px;
+height: 40px;
+/* padding: 12px 24px 19px 24px; */
+/* justify-content: center; */
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+color: #E6E5F5;
+  }
+  
+  .filter-button {
+    display: flex;
+width: 200px;
+height: 30px;
+/* padding: 12px 24px 19px 24px; */
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 5px;
+background-color: #E6E5F5;
+border-style: none;
+
+color: #2C259B;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 41px; /* 205% */
+  }
+  
+  .filter-button.active {
+    background-color: #2C259B; /* Green background for active button */
+    color: white; /* White text for active button */
+  }
+  
+  .filter-button:hover {
+    background-color: #ddd;
+  }
+  
+  .reset-button {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    /* padding: 12px 24px 19px 24px; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border-radius: 52px;
+background: linear-gradient(270deg, #FEA03A 0%, #FFCB08 100%);
+backdrop-filter: blur(7.5px);
+    border-style: none;
+    
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 41px; /* 205% */
+  }
+  
+  .apply-button {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    /* padding: 12px 24px 19px 24px; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 115px;
+    border-radius: 52px;
+    background: linear-gradient(270deg, #7575E7 0%, #322AAD 100%);
+    backdrop-filter: blur(7.5px);
+    border-style: none;
+    
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 41px; /* 205% */
+  }
+  
+  .bottom-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:first baseline;
+  }
+
+  .station-list{
+    width: 30%;
+  }

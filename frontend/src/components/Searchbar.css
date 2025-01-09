@@ -1,0 +1,117 @@
+/* *{
+    margin: 0;
+}
+
+.searchbar-container {
+    background: linear-gradient(90deg, #ED570E 0%, #FFCB09 100%);
+    display: flex;
+    height: 489px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.filter-by {
+    display: flex;
+    flex-direction: row;
+}
+
+.find-station {
+    width: 734px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 122px;
+    font-style: bold;
+    font-weight: 1000;
+    line-height: 125px;
+} */
+
+.searchbar-container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: left; */
+    /* align-items: center; */
+    background: linear-gradient(90deg, #ED570E 0%, #FFCB09 100%);
+    padding: 2rem;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding-bottom: 0;
+  }
+  
+  .find-station {
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    font-style: bold;
+    font-weight: 1000;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    justify-content: left;
+  }
+  
+  .searchbar {
+    width: 500px;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 60px;
+    font-size: 1rem;
+  }
+ 
+  
+  .use-current-location {
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    justify-content: left;
+  }
+  
+  .use-current-location:hover {
+    text-decoration: underline;
+  }
+  
+  .filter-by {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .filter-by button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .filter-by-service {
+    background: #2C259B;
+    color: white;
+  }
+  
+  .filter-by-price {
+    background: #fcaf45;
+    color: white;
+  }
+  
+  .filter-by-distance {
+    background: #ffd6a5;
+    color: #333;
+  }
+  
+  .filter-by button:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+  }
+  
+  .filter-by button:active {
+    transform: translateY(0);
+  }
+  
